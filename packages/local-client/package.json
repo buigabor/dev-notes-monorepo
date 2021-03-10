@@ -1,8 +1,13 @@
 {
-  "name": "local-client",
+  "name": "@dev-notes-bui/local-client",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
     "@emotion/react": "^11.1.5",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@material-ui/core": "^4.11.3",
@@ -41,13 +46,16 @@
     "redux": "4.0.5",
     "redux-thunk": "2.3.0",
     "typescript": "^4.2.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "@types/react-color": "^3.0.4",
+    "react-color": "^2.19.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepublishOnly": "yarn run build"
   },
   "eslintConfig": {
     "extends": [
@@ -66,9 +74,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react-color": "^3.0.4",
-    "react-color": "^2.19.3"
   }
 }

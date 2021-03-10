@@ -6,6 +6,7 @@ import { ActionBar } from './ActionBar';
 import CodeCell from './CodeCell';
 import { Sketch } from './Sketch';
 import cellListItemStyles from './styles/cellListItemStyles';
+import { TextEditor } from './TextEditor';
 
 interface CellListItemProps {
   cell: Cell;
@@ -44,7 +45,7 @@ export const CellListItem: React.FC<CellListItemProps> = ({ cell }) => {
               transition={{ duration: 0.6 }}
             >
               <ActionBar id={cell.id} />
-              {/* <TextEditor cell={cell} /> */}
+              <TextEditor cell={cell} />
             </motion.div>
           </AnimateSharedLayout>
         </>,

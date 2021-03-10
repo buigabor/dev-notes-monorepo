@@ -1,7 +1,13 @@
 {
-  "name": "local-api",
+  "name": "@dev-notes-bui/local-api",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "types": "dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
@@ -10,11 +16,13 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "start": "tsc --watch --preserveWatchOutput"
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.6"
+    "http-proxy-middleware": "^1.0.6",
+    "@dev-notes-bui/local-client": "^0.1.0"
   }
 }
