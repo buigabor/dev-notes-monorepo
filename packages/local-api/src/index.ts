@@ -31,7 +31,7 @@ export const serve = (
     // When the user installed the cli to their local machine
     // Look up the location of the local-client module and get the absolute path to that poor index.html
     const packagePath = require.resolve(
-      '@dev-notes-bui/local-client/build/index.html',
+      '@devs-notes/local-client/build/index.html',
     );
     // Serve up the index.html
     app.use(express.static(path.dirname(packagePath)));

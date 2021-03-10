@@ -1,5 +1,5 @@
 {
-  "name": "@dev-notes-bui/local-api",
+  "name": "@devs-notes/local-api",
   "version": "1.0.2",
   "main": "dist/index.js",
   "files": [
@@ -20,10 +20,10 @@
     "prepublishOnly": "tsc"
   },
   "dependencies": {
-    "@dev-notes-bui/local-client": "^1.0.2",
+    "@devs-notes/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6"
   },
-  "gitHead": "d58a4ef24bb9a273869215b63f1e6542c2b270cf"
+  "gitHead": "b0ce3320b652ff16ee3cc1dc5f01fa44d5745cfa"
 }

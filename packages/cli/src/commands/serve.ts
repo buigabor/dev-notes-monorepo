@@ -1,4 +1,4 @@
-import { serve } from '@dev-notes-bui/local-api';
+import { serve } from '@devs-notes/local-api';
 import { Command } from 'commander';
 import path from 'path';
 

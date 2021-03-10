@@ -1,5 +1,5 @@
 {
-  "name": "@dev-notes-bui/local-client",
+  "name": "@devs-notes/local-client",
   "version": "1.0.2",
   "files": [
     "build"
@@ -75,5 +75,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "d58a4ef24bb9a273869215b63f1e6542c2b270cf"
+  "gitHead": "b0ce3320b652ff16ee3cc1dc5f01fa44d5745cfa"
 }
