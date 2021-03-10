@@ -1,6 +1,6 @@
 {
   "name": "@dev-notes-bui/local-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -20,7 +20,7 @@
     "prepublishOnly": "tsc"
   },
   "dependencies": {
-    "@dev-notes-bui/local-client": "^1.0.0",
+    "@dev-notes-bui/local-client": "^1.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6"
