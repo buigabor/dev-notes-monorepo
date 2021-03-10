@@ -1,6 +1,6 @@
 {
   "name": "devs-notes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "files": [
     "dist"
@@ -14,10 +14,10 @@
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
   "dependencies": {
-    "@devs-notes/local-client": "^1.0.0"
+    "@devs-notes/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@devs-notes/local-api": "^1.0.0",
+    "@devs-notes/local-api": "^2.0.0",
     "@types/node": "^14.14.32",
     "commander": "^7.1.0",
     "esbuild": "0.8.26",
