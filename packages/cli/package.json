@@ -1,6 +1,6 @@
 {
   "name": "dev-notes-bui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "files": [
     "dist"
@@ -14,13 +14,14 @@
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
   "dependencies": {
-    "@dev-notes-bui/local-client": "^1.0.1"
+    "@dev-notes-bui/local-client": "^1.0.2"
   },
   "devDependencies": {
-    "@dev-notes-bui/local-api": "^1.0.1",
+    "@dev-notes-bui/local-api": "^1.0.2",
     "@types/node": "^14.14.32",
     "commander": "^7.1.0",
     "esbuild": "0.8.26",
     "typescript": "^4.2.3"
-  }
+  },
+  "gitHead": "d58a4ef24bb9a273869215b63f1e6542c2b270cf"
 }
